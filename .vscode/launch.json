@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Python: Arquivo Atual",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "justMyCode": true,
+        // "args": ["-url", "https://jaemilton.awsapps.com/start#/", "-debug", "True"]
+        "args": ["-url", "https://jaemilton.awsapps.com/start#/", "-d", "jaemilton_AdministratorAccess"]
+        // "args": ["-url", "https://jaemilton.awsapps.com/start#/", "-n", "jaemilton-dev", "-p", "jaemilton-dev"]
+        // "args": ["-url", "https://jaemilton.awsapps.com/start#/", "-a", "003390469472", "-p", "jaemilton-dev"]
+        
+      }
+    ]
+  }
